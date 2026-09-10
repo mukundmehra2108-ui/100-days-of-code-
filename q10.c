@@ -17,9 +17,12 @@ Output 2:
 #include <stdio.h>
 int main()
 {
-    int s;
+    int s,mins,hours,seconds;
     printf("number of seconds: ");
     scanf("%d",&s);
-    
+    hours = s/3600;
+    mins = (s%3600)/60;
+    seconds = s%60;
+    printf("%d,%d,%d",hours,mins,seconds);
     return 0;
 }
