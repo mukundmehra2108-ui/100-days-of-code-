@@ -1,4 +1,4 @@
-Q35: Write a program to print all factors of a given number.
+/*Q35: Write a program to print all factors of a given number.*/
 
 /*
 Sample Test Cases:
