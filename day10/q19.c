@@ -21,6 +21,7 @@ Scalene
 
 #include <stdio.h>
 int main()
+{
 printf("Enter the lengths of the three sides of the triangle: ");
     int a, b, c;
     scanf("%d %d %d", &a, &b, &c);

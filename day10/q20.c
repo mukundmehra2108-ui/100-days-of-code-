@@ -20,9 +20,10 @@ int main()
     int day;
     printf("Enter a number (1-7): ");
     scanf("%d", &day);
-    switch (day)
-    {
-case 1:
+
+switch (day)
+{
+    case 1:
         printf("Monday\n");
         break;
     case 2:
@@ -45,3 +46,7 @@ case 1:
         break;
     default:
         printf("Invalid input. Please enter a number between 1 and 7.\n");
+}
+
+    return 0;
+}
